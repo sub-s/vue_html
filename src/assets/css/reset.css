@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* reset css */
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,
+dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, details, figcaption, figure, dialog,
+footer, header, hgroup, menu, main, nav, section{margin:0; padding:0; border:0;}
+article, aside, details, figcaption, figure, dialog,
+footer, header, hgroup, menu, main, nav, section{display:block;}
+/* html{scroll-behavior: smooth;} */
+h1, h2, h3, h4, h5, h6{font-size:100%; font-weight:normal;}
+body{word-wrap:break-word;word-break:keep-all;color: #242424;line-height: normal;-webkit-text-size-adjust:none; font-size: 16rem;}
+/* html *{max-height:1000rem} Android tablet bug fix */
+a{color:#000; }
+a:link{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:active{}
+a:focus{text-decoration:none;}
+a,button,input{-webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);}
+html{} /*  */
+body,select,input,textarea,button{font-family: "Pretendard", "Roboto", "Apple SD Gothic Neo", "Malgun Gothic", Tahoma, "Dotum", "sans-serif", "apple color emoji", "segoe ui emoji", "noto color emoji", "android emoji", "emojisymbols", "emojione mozilla", "twemoji mozilla", "segoe ui symbol"; vertical-align:middle;font-weight: 400;}
+ol,ul,li{list-style:none;}
+label{vertical-align:middle; display:inline-block;}
+legend,caption{/* position: absolute !important; *//* left: 0rem !important; *//* top: 0rem !important; */width: 1rem !important;height: 1rem !important;opacity: 0 !important;overflow: hidden;margin-top: -1rem !important;border: 0 none !important;background: transparent !important;color: transparent !important;}
+img{vertical-align:middle; border:none;}
+table{border-collapse:collapse;border-spacing:0;}
+address,em,i{font-style:normal;}
+strong,b{font-weight:normal;}
+*,::before,::after{-webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;}
+[tabindex]:focus>.pbd,
+*:focus{outline-color: rgba(0, 114, 255,0.2);outline-width: 3rem !important;outline-style: solid;}
+
+::-ms-clear{display: none; }
+/* clears the 'X' from Internet Explorer */
+input[type=search]::-ms-clear{display:none; width:0; height:0; }
+input[type=search]::-ms-reveal{display:none; width:0; height:0; }
+/* clears the 'X' from Chrome */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration{display: none; }
+input[type=number]{-moz-appearance:textfield;}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; }
+/* Firefox */
+input[type=number] { -moz-appearance: textfield; }
+
+input::-webkit-input-placeholder {color: #c3c6cb; font-weight: normal;}
+input:-ms-input-placeholder {color: #c3c6cb; font-weight: normal;}
+textarea::-webkit-input-placeholder {color: #c3c6cb; font-weight: normal;}
+textarea:-ms-input-placeholder {color: #c3c6cb; font-weight: normal;}
+select::-ms-expand {display:none;}
+
+
+img{max-width: 100%;}
+a,button,textarea,div{/* -webkit-tap-highlight-color: transparent; */}
+button{cursor:pointer;background: none;border: none;padding: 0;}
+
+a.disabled { pointer-events: none; cursor: default }
+
+
+
+@media screen and ( min-width:1000px )  {
+}
+@media screen and (min-width: 550px)  {
+	
+}
+
+
+@media screen and ( max-width:1024px)  {
+
+}
+@media screen and ( max-width:640px)  {
+
+}
+@media screen and ( max-width:360px)  {
+}
+
+@media screen and ( max-width:1024px)  {
+}
+@media screen and ( max-width:640px)  {
+}
+@media screen and ( max-width:360px)  {
+}
