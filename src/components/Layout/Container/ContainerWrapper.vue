@@ -28,9 +28,9 @@
             // 컨테이너 높이 자동 조정
             const headerHeight = document.body.querySelector('.header').clientHeight;
             const footerHeight = document.body.querySelector('.footer').clientHeight;
-            const add = headerHeight + footerHeight 
+            const add = headerHeight + footerHeight;
             const containerHeight = window.innerHeight - add;
-            document.querySelector('.container').style.height = containerHeight + 'rem'
+            document.querySelector('.container').style.height = containerHeight + 'rem';
 
             window.addEventListener('resize', this.handleResize)
         },

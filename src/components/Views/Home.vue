@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Title :title="title" />
+        <Heading :title="title" />
         <div class="content">
             Home
         </div>
@@ -8,11 +8,11 @@
 </template>
 <script>
 
-import Title from '../Common/TitleItem.vue'
+import Heading from '../Common/Heading.vue'
 export default {
     name: 'HomeWrap',
     components: {
-        Title 
+        Heading 
     },
     data() {
         return {
