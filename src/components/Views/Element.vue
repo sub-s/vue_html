@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Heading :title="title" />
+        <Heading :level="2" :title="title" />
         <div class="content">
             Element 
         </div>
