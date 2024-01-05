@@ -27,7 +27,7 @@
 </style>
 <script>
 export default {
-    name : 'LogoItem',
+    name : 'TitleItem',
     props: {
         classType: {
             type: String,
@@ -47,7 +47,9 @@ export default {
         }
     },
     data() {
-        return {}
+        return {
+            
+        }
     },
     computed: {
         tag(){

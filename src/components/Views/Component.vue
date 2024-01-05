@@ -3,7 +3,6 @@
         <Heading :level="2" :title="title" />
         <div class="content">
             <Heading :level="3" :title="subTitle" :classType="headClass" />
-            
             <div class="content-section">
                 <Buttons :btnTitle="btns.btnTitle" />
                 <Buttons :btnTitle="btns.btnTitle" :classType="btns.primary">primary</Buttons>
