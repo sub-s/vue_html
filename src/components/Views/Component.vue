@@ -5,11 +5,11 @@
             <Heading :level="3" :title="subTitle" :classType="headClass" />
             
             <div class="content-section">
-                <Buttons :btnTitle="btnTitle" />
-                <Buttons :btnTitle="btnTitle" :classType="primary">primary</Buttons>
-                <Buttons :btnTitle="btnTitle" :classType="disabled">disabled </Buttons>
-                <Buttons :btnTitle="btnTitle" :classType="warning"> Warning </Buttons>
-                <Buttons :btnTitle="btnTitle" :classType="info"> info </Buttons>
+                <Buttons :btnTitle="btns.btnTitle" />
+                <Buttons :btnTitle="btns.btnTitle" :classType="btns.primary">primary</Buttons>
+                <Buttons :btnTitle="btns.btnTitle" :classType="btns.disabled">disabled</Buttons>
+                <Buttons :btnTitle="btns.btnTitle" :classType="btns.warning">Warning</Buttons>
+                <Buttons :btnTitle="btns.btnTitle" :classType="btns.info">info</Buttons>
             </div>
         </div>
     </div>
@@ -33,13 +33,14 @@ export default {
         return {
             title : 'Component',
             subTitle : 'Buttons',
-            btnTitle: '버튼',
-            sizeType: 'large',
             headClass : 'head',
-            primary : 'primary',
-            disabled : 'disabled',
-            warning : "warning ",
-            info : "info",
+            btns : {
+                btnTitle: '버튼',
+                primary : 'primary',
+                disabled : 'disabled',
+                warning : "warning ",
+                info : "info",
+            },
             
         };
     }
