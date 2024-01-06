@@ -4,11 +4,11 @@
         <div class="content">
             <Heading :level="3" :title="subTitle" :classType="headClass" />
             <div class="content-section">
-                <Buttons :btnTitle="btns.btnTitle" />
-                <Buttons :btnTitle="btns.btnTitle" :classType="btns.primary">primary</Buttons>
-                <Buttons :btnTitle="btns.btnTitle" :classType="btns.disabled">disabled</Buttons>
-                <Buttons :btnTitle="btns.btnTitle" :classType="btns.warning">Warning</Buttons>
-                <Buttons :btnTitle="btns.btnTitle" :classType="btns.info">info</Buttons>
+                <ButtonsItem :btnTitle="btns.btnTitle" />
+                <ButtonsItem :btnTitle="btns.btnTitle" :classType="btns.primary">primary</ButtonsItem>
+                <ButtonsItem :btnTitle="btns.btnTitle" :classType="btns.disabled">disabled</ButtonsItem>
+                <ButtonsItem :btnTitle="btns.btnTitle" :classType="btns.warning">Warning</ButtonsItem>
+                <ButtonsItem :btnTitle="btns.btnTitle" :classType="btns.info">info</ButtonsItem>
             </div>
         </div>
     </div>
@@ -21,12 +21,10 @@
 <script>
 
 import Heading from '../Common/Heading.vue';
-import Buttons from '../Common/Buttons.vue';
 export default {
     name: 'GuideWrap',
     components: {
         Heading,
-        Buttons
     },
     data() {
         return {

@@ -8,6 +8,41 @@
 
 
 
+<script>
+export default {
+    name : 'ButtonsItem',
+    props: {
+        btnTitle : {
+            type : String,
+            default : ()=>{
+                return '기본 타이틀 입니다.'
+            }
+        },
+        classType: {
+            type : String,
+            default : ()=>{
+                return 'btn'
+            }
+        },
+        sizeType: {
+            type : String,
+            default : () =>{
+                return 'medium'
+            }
+        }
+    },
+    data() {
+        return {
+            
+        }
+    },
+    computed:{
+        
+    }
+}
+</script>
+
+
 <style lang="scss" scoped>
     /* 버튼 셋 */
     .btn {
@@ -85,36 +120,3 @@
 
 
 </style>
-<script>
-export default {
-    name : 'LogoItem',
-    props: {
-        btnTitle : {
-            type : String,
-            default : ()=>{
-                return '기본 타이틀 입니다.'
-            }
-        },
-        classType: {
-            type : String,
-            default : ()=>{
-                return 'btn'
-            }
-        },
-        sizeType: {
-            type : String,
-            default : () =>{
-                return 'medium'
-            }
-        }
-    },
-    data() {
-        return {
-            
-        }
-    },
-    computed:{
-        
-    }
-}
-</script>
