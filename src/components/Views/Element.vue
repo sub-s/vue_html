@@ -1,6 +1,6 @@
 <template>
     <div>
-        <Heading :level="2" :title="title" />
+        <HeadingItem :level="2" :title="title" />
         <div class="content">
             Element 
         </div>
@@ -10,11 +10,11 @@
 <style lang="scss" scoped></style>
 
 <script>
-import Heading from '../Common/Heading.vue'
+// import Heading from '../Common/HeadingItem.vue'
 export default {
     name: 'ElementWrap',
     components: {
-        Heading 
+        // Heading 
     },
     data() {
         return {

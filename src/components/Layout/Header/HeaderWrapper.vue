@@ -10,7 +10,8 @@
                     <router-link to="/Element">Element</router-link>
                     <router-link to="/Component">Component</router-link>
                 </div>
-                <InputItem :placeholder="placeholder" :search="search" v-model="search" />
+                <!-- {{search}} -->
+                <InputItem :placeholder="placeholder" :search="search" v-model="search" @enter="enter" @clear="clear" />
             </div>
         </div>
     </div>
@@ -54,17 +55,25 @@
 </style>
 <script>
 import LogoItem from '../../Common/LogoItem';
-import InputItem from '../../Input/InputItem'
+// import InputItem from '../../Input/InputItem'
 export default {
     name: 'HeaderWrapper',
     components: {
         LogoItem,
-        InputItem
+        // InputItem
     },
     data() {
         return {
-            search : '',
+            search : 'kijjijij',
             placeholder: '검색어를 입력 하세요.',
+        }
+    },
+    methods : {
+        enter(){
+            console.log('sa')
+        },
+        clear(){
+            console.log('sdfdsf')
         }
     }
 }

@@ -27,7 +27,7 @@
 </style>
 <script>
 export default {
-    name : 'TitleItem',
+    name : 'HeadingItem',
     props: {
         classType: {
             type: String,
